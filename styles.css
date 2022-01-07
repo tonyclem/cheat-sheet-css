@@ -1,0 +1,173 @@
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  /* same as above == Font-shorthand: font: bold 16px Arial, Helvetica, sans-serf; */
+
+  line-height: 1.6em;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: red;
+}
+a:active {
+  color: green;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+
+.button:hover {
+  background: red;
+  color: #fff;
+}
+
+.clr {
+  clear: both;
+}
+
+.box-1 {
+  background-color: #333;
+  color: #fff;
+
+  border: 3px blue solid;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.box-1 h1 {
+  font-family: cursive;
+  font-style: italic;
+  font-weight: 800;
+  text-decoration: underline;
+  padding: 10px;
+  word-spacing: 1em;
+  letter-spacing: 0.2em;
+}
+
+.box-2 {
+  padding: 20px;
+  margin: 20px 0;
+  border: 3px dotted #ccc;
+}
+
+.categories {
+  border: 1px #ccc solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.categories h2 {
+  text-align: center;
+}
+
+.categories ul {
+  list-style: none;
+  padding: 0;
+}
+
+.categories li {
+  padding-bottom: 6px;
+  border-bottom: dotted 1px #333;
+}
+
+.my-form {
+  padding: 20px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #333;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.p-box {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  background-image: url("./boat.webp");
+
+  /*background-repeat: no-repeat;
+  background-position: 100px 200px;
+  background-position: center top;*/
+}
+
+.p-box h1 {
+  position: absolute;
+  top: 160px;
+  left: 200px;
+}
+
+.p-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+.fix-me {
+  position: fixed;
+  top: 300px;
+}
+
+.my-list li:first-child {
+  background: turquoise;
+}
+
+.my-list li:last-child {
+  background: rgb(64, 224, 104);
+}
+.my-list li:nth-child(6) {
+  background: tomato;
+}
+
+.my-list li:nth-child(odd) {
+  background: #ccc;
+}
